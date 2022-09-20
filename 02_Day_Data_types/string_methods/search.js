@@ -2,3 +2,5 @@
 // string.search(substring)
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.search('love')) // 2
+console.log(string.search(/javascript/gi))  // 7
+// the /gi allows for it to be not case-sensitive

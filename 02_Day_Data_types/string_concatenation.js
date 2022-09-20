@@ -6,6 +6,7 @@ let country = 'Finland'
 let city = 'Helsinki'
 let language = 'JavaScript'
 let job = 'teacher'
+let age = 250
 // Concatenating using addition operator
 let fullName = firstName + space + lastName // concatenation, merging two string together.
 console.log(fullName)
@@ -17,3 +18,7 @@ let personInfoTwo = `I am ${fullName}. I am ${age}. I live in ${country}.` //ES6
 let personInfoThree = `I am ${fullName}. I live in ${city}, ${country}. I am a ${job}. I teach ${language}.`
 console.log(personInfoTwo)
 console.log(personInfoThree)
+
+
+let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+console.log(string.length)
